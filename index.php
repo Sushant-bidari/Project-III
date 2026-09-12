@@ -1,20 +1,5 @@
 <?php require "config/config.php";
-/*
-|--------------------------------------------------------------------------
-| Educational Use License (EUL)
-|--------------------------------------------------------------------------
-| Copyright © 2026 CodeAstro
-|
-| This file is part of an educational project developed by CodeAstro.
-| It is licensed for educational and academic use only.
-|
-| ❌ Redistribution, re-uploading, commercial use, or removal of this
-|    notice is strictly prohibited without written permission.
-|
-| Author  : CodeAstro
-| Website : https://codeastro.com
-|--------------------------------------------------------------------------
-*/
+
 /* ------------------ Pagination ------------------ */
 ?>
 <?php require "includes/header.php"; ?>
@@ -314,7 +299,7 @@ $allSearches = $searchStmt->fetchAll(PDO::FETCH_OBJ);
 </style>
     <!-- HOME -->
     <!-- HERO / HOME -->
-<section class="home-section hero-v2 overlay bg-image" style="background-image:url('images/tst.jpg');" id="home-section">
+<section class="home-section hero-v2 overlay bg-image" style="background-image:url('images/bck.avif');" id="home-section">
   <div class="container">
     <div class="row align-items-center justify-content-center min-vh-75">
       <div class="col-lg-10">

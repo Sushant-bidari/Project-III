@@ -1,0 +1,16 @@
+# User uploaded CVs
+user-cvs/
+users/user-cvs/
+
+# User uploaded images
+users/user-images/
+
+# Environment / secrets
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

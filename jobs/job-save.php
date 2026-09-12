@@ -1,21 +1,6 @@
 <?php require "../config/config.php";
 
-/*
-|--------------------------------------------------------------------------
-| Educational Use License (EUL)
-|--------------------------------------------------------------------------
-| Copyright © 2026 CodeAstro
-|
-| This file is part of an educational project developed by CodeAstro.
-| It is licensed for educational and academic use only.
-|
-| ❌ Redistribution, re-uploading, commercial use, or removal of this
-|    notice is strictly prohibited without written permission.
-|
-| Author  : CodeAstro
-| Website : https://codeastro.com
-|--------------------------------------------------------------------------
-*/
+
 
     if(isset($_GET['job_id']) AND isset($_GET['worker_id']) AND isset($_GET['status'])) {
 
